@@ -1,0 +1,25 @@
+.right {
+    position: absolute;
+    top: 10%;
+    margin-left: 55%;
+    z-index: 10;
+}
+.check {
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow:
+        9px 9px 18px #262c3e,
+        -9px -9px 18px #30384e;
+    color: #0ad406;
+}
+.check:hover {
+    background-color: rgb(147 209 117 / 0.5);
+    transition: 0.5s;
+}
